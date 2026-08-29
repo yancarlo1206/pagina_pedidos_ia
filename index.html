@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QuickOrder - Menú Digital</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Encabezado Principal -->
+    <header>
+        <h1>QuickOrder – Menú Digital</h1>
+    </header>
+
+    <!-- Botones de Categorías -->
+    <nav class="categorias">
+        <button class="btn-categoria hamburguesas">Hamburguesas</button>
+        <button class="btn-categoria perros">Perros Calientes</button>
+        <button class="btn-categoria salchipapas">Salchipapas</button>
+        <button class="btn-categoria bebidas">Bebidas</button>
+    </nav>
+
+    <!-- Sección de Productos -->
+    <main class="seccion-platos">
+        <h2 class="titulo-seccion">Platos Disponibles</h2>
+        
+        <div class="contenedor-platos">
+            
+            <!-- Plato 1: Hamburguesa -->
+            <article class="tarjeta-plato" data-categoria="hamburguesas">
+                <img src="hamburguesa.jpg" alt="Hamburguesa Doble" class="imagen-plato">
+                <h3 class="nombre-plato">Hamburguesa Doble</h3>
+                <p class="precio-plato">$ 25000</p>
+                <button class="btn-agregar">Agregar el Pedido</button>
+            </article>
+
+            <!-- Plato 2: Perro Caliente -->
+            <article class="tarjeta-plato" data-categoria="perros">
+                <img src="perro_caliente.jpg" alt="Perro Caliente Especial" class="imagen-plato">
+                <h3 class="nombre-plato">Perro Especial</h3>
+                <p class="precio-plato">$ 18000</p>
+                <button class="btn-agregar">Agregar el Pedido</button>
+            </article>
+
+            <!-- Plato 3: Salchipapa -->
+            <article class="tarjeta-plato" data-categoria="salchipapas">
+                <img src="salchipapa.jpg" alt="Salchipapa Familiar" class="imagen-plato">
+                <h3 class="nombre-plato">Salchipapa Familiar</h3>
+                <p class="precio-plato">$ 30000</p>
+                <button class="btn-agregar">Agregar el Pedido</button>
+            </article>
+
+            <!-- Plato 4: Bebida -->
+            <article class="tarjeta-plato" data-categoria="bebidas">
+                <img src="bebida.jpg" alt="Gaseosa Fría" class="imagen-plato">
+                <h3 class="nombre-plato">Gaseosa / Bebida</h3>
+                <p class="precio-plato">$ 6000</p>
+                <button class="btn-agregar">Agregar el Pedido</button>
+            </article>
+
+        </div>
+    </main>
+
+</body>
+</html>

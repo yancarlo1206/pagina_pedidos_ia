@@ -1,0 +1,140 @@
+/* Estilos Generales */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #f8f9fa;
+    color: #333333;
+    padding: 20px;
+}
+
+/* Encabezado */
+header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+h1 {
+    color: #0056b3;
+    font-size: 2.2rem;
+    font-weight: 700;
+}
+
+/* Navegación por Categorías */
+.categorias {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 40px;
+    flex-wrap: wrap;
+}
+
+.btn-categoria {
+    background-color: #ffffff;
+    border: 2px solid #ccc;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.btn-categoria.hamburguesas {
+    color: #3f51b5;
+    border-color: #3f51b5;
+}
+
+.btn-categoria.perros {
+    color: #689f38;
+    border-color: #689f38;
+}
+
+.btn-categoria.salchipapas {
+    color: #d84315;
+    border-color: #d84315;
+}
+
+.btn-categoria.bebidas {
+    color: #00897b;
+    border-color: #00897b;
+}
+
+.btn-categoria:hover {
+    opacity: 0.85;
+    transform: translateY(-2px);
+}
+
+/* Sección de Platos */
+.seccion-platos {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.titulo-seccion {
+    font-size: 1.5rem;
+    color: #222;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Cuadrícula de Platos (Grid) */
+.contenedor-platos {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 25px;
+}
+
+/* Tarjeta de Producto */
+.tarjeta-plato {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+    overflow: hidden;
+    text-align: center;
+    padding-bottom: 20px;
+    transition: transform 0.3s ease;
+}
+
+.tarjeta-plato:hover {
+    transform: translateY(-5px);
+}
+
+.imagen-plato {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.nombre-plato {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin: 15px 0 10px;
+    color: #111;
+}
+
+.precio-plato {
+    font-size: 1.1rem;
+    color: #444;
+    margin-bottom: 15px;
+}
+
+.btn-agregar {
+    background-color: #ffffff;
+    border: 1.5px solid #333333;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 0.95rem;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.btn-agregar:hover {
+    background-color: #b30300;
+    color: #ffffff;
+    border-color: #b30056;
+}
