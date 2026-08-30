@@ -28,6 +28,6 @@ botonesAgregar.forEach(boton => {
         }
 
         // Mostramos el arreglo de objetos acumulado en consola
-        console.log("🛒 Estado actual del pedido:", pedido);
+        console.log(pedido);
     });
 });
